@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "volunteerLocations": {
+      "$volunteerId": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid == $volunteerId"
+      }
+    }
+  }
+}

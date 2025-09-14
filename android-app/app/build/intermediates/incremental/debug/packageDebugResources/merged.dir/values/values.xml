@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="accept_ride">Accept Ride</string>
+    <string name="accepted">Accepted</string>
+    <string name="app_name">LiftTogether</string>
+    <string name="arrived">Arrived</string>
+    <string name="availability">Availability</string>
+    <string name="available_to_give_rides">Available to give rides</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="complete_ride">Complete Ride</string>
+    <string name="completed">Completed</string>
+    <string name="dropoff_location">Drop-off Location</string>
+    <string name="email">Email</string>
+    <string name="emergency">Emergency</string>
+    <string name="error">Error</string>
+    <string name="firebase_database_url" translatable="false">https://lifttogether-ride-sharing-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">308561374999</string>
+    <string name="google_api_key" translatable="false">AIzaSyCDozZbw8m-C0E6r2Bh5019qZ6R_qb4h_s</string>
+    <string name="google_app_id" translatable="false">1:308561374999:android:30a9baa5e05272f7089152</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDozZbw8m-C0E6r2Bh5019qZ6R_qb4h_s</string>
+    <string name="google_maps_key">NOT_NEEDED_FOR_OPENSTREETMAP</string>
+    <string name="google_storage_bucket" translatable="false">lifttogether-ride-sharing.firebasestorage.app</string>
+    <string name="high">High</string>
+    <string name="in_progress">In progress</string>
+    <string name="loading">Loading...</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="name">Full Name</string>
+    <string name="not_available">Not available</string>
+    <string name="notes">Notes (Optional)</string>
+    <string name="ok">OK</string>
+    <string name="on_the_way">On the way</string>
+    <string name="password">Password</string>
+    <string name="pending">Pending</string>
+    <string name="phone">Phone Number</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="project_id" translatable="false">lifttogether-ride-sharing</string>
+    <string name="request_ride">Request Ride</string>
+    <string name="retry">Retry</string>
+    <string name="rider">Rider</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="start_ride">Start Ride</string>
+    <string name="urgency">Urgency</string>
+    <string name="volunteer">Volunteer</string>
+    <style name="Theme.LiftTogether" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/purple_500</item>
+        <item name="android:colorAccent">@color/teal_200</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+    </style>
+</resources>

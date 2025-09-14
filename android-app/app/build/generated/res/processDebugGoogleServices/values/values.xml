@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://lifttogether-ride-sharing-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">308561374999</string>
+    <string name="google_api_key" translatable="false">AIzaSyCDozZbw8m-C0E6r2Bh5019qZ6R_qb4h_s</string>
+    <string name="google_app_id" translatable="false">1:308561374999:android:30a9baa5e05272f7089152</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDozZbw8m-C0E6r2Bh5019qZ6R_qb4h_s</string>
+    <string name="google_storage_bucket" translatable="false">lifttogether-ride-sharing.firebasestorage.app</string>
+    <string name="project_id" translatable="false">lifttogether-ride-sharing</string>
+</resources>

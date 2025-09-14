@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users can read and write their own user document
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Volunteers can read and write their own volunteer document
+    match /volunteers/{volunteerId} {
+      allow read, write: if request.auth != null && request.auth.uid == volunteerId;
+      // Other users can read volunteer availability status
+      allow read: if request.auth != null;
+    }
+    
+    // Ride requests are readable by all authenticated users
+    match /rideRequests/{rideId} {
+      allow read: if request.auth != null;
+      // Only the rider who created the request can write to it
+      allow write: if request.auth != null && 
+        (request.auth.uid == resource.data.riderId || 
+         request.auth.uid == resource.data.assignedVolunteerId);
+    }
+    
+    // Location data is readable by all authenticated users
+    match /volunteerLocations/{volunteerId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == volunteerId;
+    }
+  }
+}

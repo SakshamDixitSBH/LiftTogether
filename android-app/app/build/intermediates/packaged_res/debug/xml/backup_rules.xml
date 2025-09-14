@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude sensitive data from backup -->
+    <exclude domain="sharedpref" path="firebase_auth_emulator.xml"/>
+    <exclude domain="database" path="firebase_auth_emulator.db"/>
+</full-backup-content>

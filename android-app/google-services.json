@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "308561374999",
+    "firebase_url": "https://lifttogether-ride-sharing-default-rtdb.firebaseio.com",
+    "project_id": "lifttogether-ride-sharing",
+    "storage_bucket": "lifttogether-ride-sharing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308561374999:android:30a9baa5e05272f7089152",
+        "android_client_info": {
+          "package_name": "com.lifttogether"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDozZbw8m-C0E6r2Bh5019qZ6R_qb4h_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
