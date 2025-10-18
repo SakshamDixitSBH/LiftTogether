@@ -1,13 +1,17 @@
 
+
+# LiftTogether - Android App 
+
+A volunteer-driven ride-sharing app that connects riders in need with volunteer drivers, prioritizing requests based on urgency.
+
+
+
 ## UI Mockups
 <img src="https://github.com/user-attachments/assets/727db507-247e-4d20-a288-dbfe4d7af0c4" width="250" alt="WhatsApp Image 2025-09-11 at 03 39 12 (1)">
 
 <img src="https://github.com/user-attachments/assets/7b37d5ab-b04d-4967-a1c6-827b37dbba5e" width="250" alt="WhatsApp Image 2025-09-11 at 03 39 12">
 
 
-# LiftTogether - Android App MVP
-
-A volunteer-driven ride-sharing app that connects riders in need with volunteer drivers, prioritizing requests based on urgency.
 
 ## Features
 
