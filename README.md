@@ -2,14 +2,18 @@
 
 # LiftTogether – Android App
 
-**Volunteer-driven ride-sharing app** connecting seniors and community members in need of rides with local volunteer drivers.  
-Built to improve community mobility and reduce social isolation, prioritizing requests based on urgency (emergency, high, medium, low).
+**Volunteer-driven ride-sharing app** connecting seniors and community members in need of transportation with local volunteer drivers.  
+Built to improve community mobility and reduce social isolation, prioritizing ride requests based on urgency (emergency, high, medium, low).
 
-> **Note:** Development for LiftTogether took place between **June 2023 and February 2024**.  
-> Code was later uploaded to GitHub in bulk for documentation and sharing purposes.  
-> All features were tested on-device using Firebase backend services.
+> **Note:** Development for this project began in early **2024** during my **11th-grade Mobile App Development course**, where I was first introduced to Android programming.  
+> The initial version started as a small school project and was later expanded and moved from local development to GitHub.  
+> Many ideas and features were brainstormed with friends from my community — often in our basement on cold winter days — making this a true collaborative learning experience.  
+> I’m grateful to my **family and friends** for their encouragement, late-night feedback, and constant support that kept this project moving forward.
 
 ---
+
+
+
 
 
 
